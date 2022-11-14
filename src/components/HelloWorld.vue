@@ -25,8 +25,8 @@ onMounted(async () => {
 <template>
   <div class="q-ma-lg">
     <h4>{{ msg }}</h4>
-    <p >This is a demo project using Odata API (SharePoint uses Odata 2.0) to get data (posting data is similar and reference can be found in the links below.)</p>
-    <p >This uses the Vue composition API structure.</p>
+    <p >This is a basic demo project using Odata API (SharePoint uses Odata 2.0) to get data (posting data is similar and reference can be found in the links below.)</p>
+    <p >This uses the Vue composition API structure and binds asynchronous API call data to the view model using Pinia state management.</p>
     For this demo, I am using an Odata open API (see the HelloWorld.vue onMounted hook) for a an axios get command.  <br />
     Functionaly, SharePoint API follows Odata 2.0 spec found <a href="https://www.odata.org/documentation/odata-version-2-0/">here</a>.<br />
     In practice, in the local development environment, you will need to use a proxy service locally to be able to avoid cross-site-scripting issues. <br />
@@ -95,7 +95,8 @@ onMounted(async () => {
       </tr>
     
     </table>
-
+    John 3:16: For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.<br />
+    Scott Hickerson 11/13/2022
   </div>
 </template>
 
